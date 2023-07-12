@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC APP</title>
+    <style>
+        table,tr,th{
+            border:5px solid black;
+            border-collapse: collapse;
+        }
+        img{
+            width:300px;
+            height: 230px;
+        }
+        .container{
+            background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=600");
+            
+        }
+        div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th> <img onclick="song1()" src="https://th.bing.com/th/id/OIP.MlM3REXl9HReLIDbofQIcQHaHa?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+                <th> <img onclick="song2()" src="https://th.bing.com/th/id/OIP.etSinlKvLukqsQs6mrqkWAHaD4?w=294&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+                <th> <img onclick="song3()" src="https://th.bing.com/th/id/OIP.5ENlGtNM4rg9s3HLooDNLgHaEK?w=320&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+            </tr>
+            <tr>
+                <th> <img onclick="song4()" src="https://th.bing.com/th/id/OIP.3IXnp8cMzrxl0mUlosGn5wHaFa?w=245&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+                <th> <img onclick="song5()" src="https://th.bing.com/th/id/OIP.ggIlofbkREOR3zkqLUQ7awHaDp?w=323&h=172&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+                <th> <img onclick="song6()" src="https://th.bing.com/th/id/OIP.XpEBq-i3YyZ80Y6YMMQZxQHaEK?w=304&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+            </tr>
+            <tr>
+                <th> <img onclick="song7()" src="https://th.bing.com/th/id/OIP.Y9-2j8D0B5hRF0LwXbFd9QHaDJ?w=321&h=148&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+                <th> <img onclick="song8()" src="https://th.bing.com/th/id/OIP.jhdYlxOEkebNgLqy3zbTgwHaEK?w=326&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+                <th> <img onclick="song9()" src="https://th.bing.com/th/id/OIP.r2IdHQ6EuRRgF9Ju6kLgdwHaE-?w=248&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"</th>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        const harMaidanFateh=new Audio("kar_har_maidan_fateh.mp3");
+        const kuchKariye=new Audio("chak_de_india.mp3");
+        const rukJaanaNahin =new Audio("ruk_jaana_nahi.mp3");
+        const brothersAnthem =new Audio("brothers_anthem.mp3");
+        const aashayein =new Audio("aashayein.mp3");
+        const humHongeKamyaab=new Audio("hum_honge_kamyaab.mp3");
+        const investInYourself=new Audio("invest_in_yourself.mp3");
+        const zindaSongBharat=new Audio("zinda_song_bharat.mp3");
+        const besabriyaan =new Audio("besabriyaa_db.mp3");
+
+        const song1=()=>{
+            harMaidanFateh.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+        const song2=()=>{
+            kuchKariye.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+        const song3=()=>{
+            rukJaanaNahin.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+        const song4=()=>{
+            brothersAnthem.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+        const song5=()=>{
+            aashayein.play();
+            alert("Pls wait for 30 sec before playing next song"); 
+        }
+        const song6=()=>{
+            humHongeKamyaab.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+        const song7=()=>{
+            investInYourself.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+        const song8=()=>{
+            zindaSongBharat.play();
+            alert("Pls wait for 30 sec before playing next song"); 
+        }
+        const song9=()=>{
+            besabriyaan.play(); 
+            alert("Pls wait for 30 sec before playing next song");
+        }
+    </script>
+</body>
+</html>
